@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
+require('@google-cloud/debug-agent').start({serviceContext: {enableCanary: false}});
+
 app.use(bodyParser.json());
 
 const port = process.env.PORT || 8080;
