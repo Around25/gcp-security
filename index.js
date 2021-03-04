@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-require('@google-cloud/debug-agent').start({serviceContext: {enableCanary: false}});
+require('@google-cloud/debug-agent').start({ allowExpressions: true });
 
 app.use(bodyParser.json());
 
@@ -17,7 +17,8 @@ app.get('/', async (req, res) => {
 
 app.post('/', async (req, res) => {
   const notification = decodeBase64Json(req.body.message.data);
-  try {
+  try 
+  {
     console.log(`Email Service: Report ${notification.id} trying...`);
     sendEmail();
     console.log(`Email Service: Report ${notification.id} success :-)`);
