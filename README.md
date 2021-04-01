@@ -1,6 +1,6 @@
-Email Service POC in NodeJS
+Out Of Stock Service POC in NodeJS
 
-This code is used in the article "How to build microservices on Google Cloud Platform and App Engine I".
+This code is used in the article "How to build microservices on Google Cloud Platform and App Engine III".
 
 In this series of articles I will share my own experience working with microservices on Google Cloud Platform, the different options that we have, pros, cons and limitations of each of the services in GCP, today we’ll focus on App Engine.
 
