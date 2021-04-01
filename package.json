@@ -1,7 +1,7 @@
 {
-  "name": "email-service",
-  "description": "Email Service in Node.js sample for Google App Engine Standard Environment.",
-  "version": "0.0.2",
+  "name": "out-of-stock-service",
+  "description": "Out Of Stock Service in Node.js sample for Google App Engine Standard Environment.",
+  "version": "1.0.0",
   "private": true,
   "license": "Apache-2.0",
   "author": "Pablo Portillo",
@@ -16,8 +16,11 @@
     "test": "mocha --exit test/*.test.js"
   },
   "dependencies": {
+    "@google-cloud/datastore": "^6.3.1",
     "@google-cloud/debug-agent": "^5.1.3",
-    "express": "^4.17.1"
+    "check-node-version": "^4.1.0",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "mocha": "^8.1.3",
