@@ -15,12 +15,12 @@ app.listen(port, () => {
   console.log('Listening on port', port);
 });
 
-app.get('/', async (req, res) => {
+app.get('/out-of-stock', async (req, res) => {
     console.log(`Out Of Stock Service: health check`);
     res.status(200).send('OK');
 })
 
-app.post('/', async (req, res) => 
+app.post('/out-of-stock', async (req, res) => 
 {
   const notification = req.body;
   console.log(`Request ${notification}`)

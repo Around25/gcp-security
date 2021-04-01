@@ -1,0 +1,3 @@
+dispatch:
+   - url: "services.xtiyo.com/out-of-stock*"
+     service: out-of-stock-service
