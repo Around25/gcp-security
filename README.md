@@ -1,6 +1,6 @@
 # Out Of Stock Service POC in NodeJS
 
-This code is used in the article "How to build microservices on Google Cloud Platform and App Engine III".
+This code is used in the article [How to manage microservices security on Google Cloud Platform and App Engine](https://around25.com/blog/how-to-build-microservices-on-google-cloud-platform-and-app-engine-part-iii-security/).
 
 In this series of articles I will share my own experience working with microservices on Google Cloud Platform, the different options that we have, pros, cons and limitations of each of the services in GCP, today we’ll focus on App Engine.
 
