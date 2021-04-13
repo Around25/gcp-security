@@ -11,12 +11,9 @@ This code is very simple and will only deploy a service able to get notification
 ## How to deploy it?
 
 1. Just download the code 
-2. Execute 
-'npm install'
-3. Execute
-'gcloud app deploy'
-4. Then
-'gcloud app browse'
+1. Execute `npm install`
+1. Execute `gcloud app deploy`
+1. Then `gcloud app browse`
 
 You will see the health check in your browser.
 
