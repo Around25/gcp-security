@@ -1,4 +1,4 @@
-Out Of Stock Service POC in NodeJS
+# Out Of Stock Service POC in NodeJS
 
 This code is used in the article "How to build microservices on Google Cloud Platform and App Engine III".
 
@@ -8,7 +8,7 @@ If you are here it is because you are already deciding about what flavor should 
 
 This code is very simple and will only deploy a service able to get notifications from cloud pub sub.
 
-How to deploy it?
+## How to deploy it?
 
 1. Just download the code 
 2. Execute 
@@ -20,4 +20,7 @@ How to deploy it?
 
 You will see the health check in your browser.
 
-
+## Complete series
+1. [How to build microservices on Google Cloud Platform and App Engine](https://around25.com/blog/how-to-build-microservices-on-google-cloud-platform-and-app-engine-i/)
+1. [How to troubleshoot microservices on Google Cloud Platform and App Engine](https://around25.com/blog/how-to-build-microservices-on-google-cloud-platform-and-app-engine-ii-troubleshooting-your-microservices/)
+1. [How to manage microservices security on Google Cloud Platform and App Engine](https://around25.com/blog/how-to-build-microservices-on-google-cloud-platform-and-app-engine-part-iii-security/)
